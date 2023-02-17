@@ -3,7 +3,7 @@
 #include <time.h>
 int main(void)
 {
-	char low;
+	char low=0;
 
 	for (low = 'z'; low >= 'a'; low--)
 		putchar(low);
